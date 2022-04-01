@@ -1,0 +1,79 @@
+:root{
+    --corPadrao: #F59D0F;
+    --corSecundaria: #0187C7;
+    --corBlack: #001E30;
+    --grafite: #696969;
+    --white: white;
+
+    /*Font Size*/
+    --padrao: 16px;
+    --titulo: 30px;
+    --subtitulo: 30px;
+    --paragrafo: 15px;
+    --minifont: 13px;
+
+    /*Distancias*/
+                    --heightHeader: 10%;
+    --topHome: 10%; --heightHome: 90%;
+    --topSobre: 100%; --heightSobre: 90%;
+    --topVantagens: 192%; --heightVantagens: 90%;
+    --topSegmentos: 282%; --heightSegmentos: 90%;
+    --topSeja-parceiro: 372%; --heightSeja-parceiro: 90%;
+    --topSgi: 460%; --heightSgi: 90%;
+    --toMobilidade-extra: 550%; --heightMobilidade-extra: 90%;
+    --topNotas-fiscais: 640%; --heightNotas-fiscais: 90%;
+    --topSuporte: 730%; --heightSuporte: 90%;
+    --topfooter: 820%; --heightfooter: 90%;
+
+    
+}
+
+h1{
+    font-size: var(--titulo);
+}
+
+p{
+    font-size: var(--paragrafo);
+}
+
+h2{
+    font-size: var(--subtitulo);
+}
+
+li{
+    font-size: var(--padrao);
+}
+
+h3{
+    font-size: var(--padrao);
+}
+
+#root{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    left: 0%;
+    top: 10%;
+    background-color: transparent;
+}
+
+.title-sections{
+    background-color: white;
+    position: relative;
+    float: left;
+    padding: 1% 0% 1% 0%;
+    width: 100%;
+    text-align: center;
+}
+
+.about{
+    background-color: var(--corSecundaria);
+    color: white;
+}
+
+.title-sections h1{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
