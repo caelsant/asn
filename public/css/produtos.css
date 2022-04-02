@@ -1,0 +1,212 @@
+#csgi{
+    background-color: var(--corPadrao);
+    position: relative;
+    float: left;
+    padding: 2% 0% 2% 0%;
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+
+#carousel{
+    display: grid;
+    grid-template-columns: repeat(2, 100%);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: var(--corPadrao);
+}
+
+
+.carousel-item{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+    row-gap: 20%;
+    width: 100%;
+    height: 80%;
+    top: 10%;
+    background-color: var(--corPadrao);
+    max-height: 100%;
+}
+
+.sgi-icon img{
+    width: 100%;
+    position: relative;
+}
+
+.carousel-item > div{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.sgi-item > div{
+    position: relative;
+    float: left;
+    top: -40%;
+    left: 30%;
+    width: 40%;
+    height: 60%;
+    background-color: var(--corBlack);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.carousel-item > div:hover{
+    background-color: var(--corBlack);
+    color: white;
+}
+
+.sgi-item h3{
+    position: relative;
+    float: left;
+    top: -10%;
+    width: 100%;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+#mobilidade{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: transparent;
+    position: relative;
+    float: left;
+    padding: 5% 0% 5% 0%;
+    width: 100%;
+    height: 10%;
+    column-gap: 5%;
+
+}
+
+#mobilidade > div{
+    overflow: hidden;
+    margin-left: 10%;
+    background-color: white;
+    width: 80%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#extra{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: transparent;
+    position: relative;
+    float: left;
+    padding: 5% 0% 5% 0%;
+    width: 100%;
+    height: 10%;
+    column-gap: 5%;
+
+}
+
+#extra h3{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--grafite);
+}
+
+#mobilidade h3{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--grafite);
+}
+
+#extra > div{
+    overflow: hidden;
+    margin-left: 10%;
+    background-color: white;
+    width: 80%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.m-e-icon{
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 100%;
+
+}
+
+.m-e-icon img{
+    position: relative;
+    width: 100%;
+}
+
+#notas-fiscais{
+    display: grid;
+    grid-template-areas:
+      'item1 item1 item1 icon1 icon1 icon1'
+      'icon2 icon2 icon2 item2 item2 item2'
+      'item3 item3 item3 icon3 icon3 icon3';
+      background-color: transparent;
+      row-gap: 5%;
+      position: relative;
+      float: left;
+      padding: 5% 5% 5% 5%;
+      width: 100%;
+      height: 180%;
+      max-height: 180%;
+      max-width: 90%;
+}
+
+#notas-fiscais > div{
+    padding: 2%;
+    overflow: hidden;
+
+}
+
+#notas-fiscais h1{
+    color: var(--corSecundaria);
+}
+
+.nota-item2 p{
+    margin-left: 15%;
+}
+
+.nota-item2 h1{
+    margin-left: 15%;
+}
+
+#notas-fiscais p{
+    width: 80%;
+}
+
+.nota-icons{
+    background-color: var(--corPadrao);
+    border-radius: 20px;
+}
+
+.nota-icons img{
+    background-color: transparent;
+    width: 100%;
+    transform: translateY(-20%);
+    border-radius: 15px;
+}
+
+.nota-item1{ grid-area: item1; }
+.nota-icon1{ grid-area: icon1; }
+.nota-item2{ grid-area: item2; }
+.nota-icon2{ grid-area: icon2; }
+.nota-item3{ grid-area: item3; }
+.nota-icon3{ grid-area: icon3; }
+

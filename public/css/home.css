@@ -1,0 +1,79 @@
+@media screen 
+ and (min-width: 100px) 
+{ 
+    #home{
+        background-color: black;
+    }
+}
+
+#home-back{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    left: 0%;
+    top: 10%;
+    background-color: var(--corSecundaria);
+}
+
+
+#home{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: var(--corPadrao);
+    position: relative;
+    float: left;
+    width: 100%;
+    max-height: 90%;
+    overflow: hidden;
+    border-radius: 0% 0% 45% 45%;
+}
+ 
+#home > div {
+    background-color: transparent;
+    width: 50%;
+    margin: 10px;
+    text-align: left;
+    overflow: hidden;
+}
+
+#home img{
+    text-align: center;
+    transform: translateY(-10%);
+    height: 100%;
+    left: 20%;
+    background-color: transparent;
+}
+
+#home h1{
+    font-size: 50px;
+    margin: 10% 0% 3% 20%;
+    color: var(--corSecundaria);
+}
+
+#home p{
+    margin: 0% 0% 3% 20%;
+    color: var( --white);
+    font-size: var(--paragrafo);
+}
+
+#home button{
+    margin: 0% 0% 3% 20%;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 15%;
+    height: 7%;
+    border-radius: 10px;
+}
+
+
+/*VANTAGENS*/
+
+
+
+
+
+
+
+
+
