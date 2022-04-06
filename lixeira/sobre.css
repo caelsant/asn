@@ -1,0 +1,33 @@
+#csobre{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: var(--corSecundaria);
+    position: relative;
+    float: left;
+    padding: 2% 0% 2% 0%;
+    width: 100%;
+    max-height: 70%;
+}
+
+#csobre h1{
+    margin: 10% 0% 3% 15%;
+    color: white;
+}
+
+
+#csobre p {
+    margin: 0% 0% 3% 15%;
+    color: white;
+}
+
+#csobre img{
+ width: 70%;
+}
+ 
+#csobre > div{
+    background-color: transparent;
+    width: 50%;
+    margin: 10px;
+    text-align: left;
+    overflow: hidden;
+}
