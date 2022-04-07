@@ -1,0 +1,150 @@
+body{
+    font-family: roboto;
+}
+
+
+header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    text-align: center;
+}
+
+header img{
+    position: relative;
+    width: 5%;
+}
+
+header h1{
+    margin: 0% 0% 2% 0%;
+    font-size: 20px;
+    color: black;
+}
+
+#visitor-conteiner{
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 90%;
+    height: 15%;
+    background-color: transparent;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10%;
+    padding: 0% 5% 0% 5%;
+}
+
+#visitor-conteiner h1{
+    font-size: 12px;
+}
+
+#visitor-conteiner h2{
+    margin: 0;
+    padding: 0;
+}
+
+#visitor-conteiner > div{
+    top: 15%;
+    height: 70%;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;}
+
+#contact-clients{
+    border-top: 2px solid rgb(209, 209, 209);
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    height: 65%;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#contact-controler{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5%;
+    width: 80%;
+    height: 10%;
+    position: relative;
+    left: 0;
+    float: left;
+    background-color: transparent;
+    padding: 0% 10% 0% 10%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+#contact-controler div{
+    top: 15%;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#contact-controler h3{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+}
+
+#clients{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    width: 90%;
+    padding: 0% 5% 0% 5%;
+    height: 120%;
+    position: relative;
+    left: 0;
+    float: left;
+    background-color: white;
+    overflow: scroll;
+
+}
+
+#clients::-webkit-scrollbar{
+    display: none;
+}
+
+.client-wrapp{
+    height: 100%;
+    background-color: white;
+    position: relative;
+    text-align: left;
+    padding: 0% 5% 0% 5% ;
+    border-radius: 15px;
+}
+
+.client-wrapp i{
+    width: 12%;
+}
+
+.client-wrapp ul{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.client-wrapp li{
+    background-color: white;
+    padding: 5px;
+    border: 1px solid rgb(173, 173, 173);
+}
