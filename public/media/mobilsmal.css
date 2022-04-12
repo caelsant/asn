@@ -1,0 +1,890 @@
+:root{
+    --corPadrao: #F59D0F;
+    --corSecundaria: #0187C7;
+    --corBlack: #001E30;
+    --grafite: #696969;
+    --white: white;
+
+    /*Font Size*/
+    --padrao: 16px;
+    --titulo: 40px;
+    --subtitulo: 30px;
+    --paragrafo: 160px;
+    --minifont: 13px;
+
+}
+
+h1{
+font-size: 20px;
+}
+
+p{
+font-size: 8px;
+}
+
+h2{
+font-size: 20px;
+}
+
+li{
+font-size: 4px;
+}
+
+h3{
+font-size: 4px;
+}
+
+#root{
+position: absolute;
+width: 100%;
+height: 90%;
+left: 0%;
+top: 7%;
+background-color: transparent;
+}
+
+.title-sections{
+background-color: white;
+position: relative;
+float: left;
+padding: 5% 0% 5% 0%;
+width: 100%;
+text-align: center;
+}
+
+.about{
+background-color: var(--corSecundaria);
+color: white;
+}
+
+.title-sections h1{
+font-size: 20px;
+margin: 0;
+padding: 0;
+}
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+
+header{
+    background-color: var(--corPadrao);
+    position: fixed;
+    left: 0;
+    top: 0%;
+    width: 100%;
+    height: 7%;
+    border-bottom: 2px solid white;
+    z-index: 1;
+    color: white;
+}
+
+#logo{
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+
+#logo img{
+    position:relative;
+    float: left;
+    width: 20%;
+    margin: 0 0 0 5%;
+    padding: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: 1s;
+}
+
+#logo h3:hover{
+    color: var(--corBlack);
+}
+
+#logo h3{
+    position:relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+    margin: 0 0 0 4%;
+    padding: 0;
+    cursor: pointer;
+}
+
+#menu{
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+
+#menu ul{
+    position: relative;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#menu li{
+    display: inline-block;
+    position: relative;
+    top: 0%;
+    transform: translateY(-50%);
+    padding: 2%;
+    left: 15%;
+    cursor: pointer;
+    color: white;
+}
+
+#menu li:hover a{
+    color: var(--corBlack);
+}
+
+#button-nav{
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: var(--corPadrao);
+}
+
+#button-nav button{
+    position: relative;
+    top: -25%;
+    width: 90%;
+    left: 5%;
+    height: 50%;
+    border-radius: 5px;
+    background-color: var(--corBlack);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 3px;
+}
+
+button{
+    cursor: pointer;
+}
+
+/*HOME*/
+
+
+
+#home-back{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    left: 0%;
+    top: 10%;
+    background-color: var(--corSecundaria);
+}
+
+
+#home{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: var(--corPadrao);
+    position: relative;
+    float: left;
+    width: 100%;
+    max-height: 60%;
+    overflow: hidden;
+    border-radius: 0% 0% 30% 30%;
+}
+ 
+#home > div {
+    background-color: transparent;
+    width: 50%;
+    margin: 10px;
+    text-align: left;
+    overflow: hidden;
+}
+
+#home img{
+    transform: translateX(-10%);
+    height: 75%;
+    background-color: transparent;
+}
+
+#home h1{
+    font-size: 10px;
+    margin: 10% 0% 3% 20%;
+    color: var(--corSecundaria);
+}
+
+#home p{
+    margin: 0% 0% 3% 20%;
+    color: var( --white);
+    font-size: 6px;
+}
+
+#home button{
+    margin: 0% 0% 3% 20%;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 60%;
+    height: 10%;
+    border-radius: 5px;
+    font-size: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*SOBRE*/
+
+#csobre{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: var(--corSecundaria);
+    position: relative;
+    float: left;
+    padding: 2% 0% 2% 0%;
+    width: 100%;
+    max-height: 90%;
+}
+
+#csobre h1{
+    margin: 10% 0% 3% 15%;
+    color: white;
+    font-size: 8px;
+}
+
+
+#csobre p {
+    margin: 0% 0% 3% 15%;
+    color: white;
+    font-size: 6px;
+}
+
+
+#csobre img{
+ width: 120%;
+ top: 50%;
+ position: relative;
+ transform: translateY(-50%);
+}
+ 
+#csobre > div{
+    background-color: transparent;
+    width: 50%;
+    margin: 10px;
+    text-align: left;
+    overflow: hidden;
+}
+
+
+
+/*VANTAGENS*/
+
+.item1{ grid-area: one; }
+.itempic1{ grid-area: onepic; }
+.item2{ grid-area: two; }
+.itempic2{ grid-area: twopic; }
+.item3{ grid-area: three; }
+.itempic3{ grid-area: threepic; }
+
+#vantagens{
+    display: grid;
+    grid-template-areas:
+      'onepic onepic onepic one one one'
+      'two two two twopic twopic twopic'
+      'threepic threepic threepic three three three';
+    gap: 10px;
+    background-color: transparent;
+    position: relative;
+    float: left;
+    padding: 3% 5% 3% 5%;
+    width: 100%;
+    height: 250%;
+    max-height: 250%;
+    max-width: 90%;
+}
+
+#vantagens > div{
+    background-color: transparent;
+    font-size: 30px;
+    padding: 2%;
+    overflow: hidden;
+}
+
+#vantagens img{
+    position: relative;
+    transform: translateY(-50%);
+    width: 100%;
+    top: 50%;
+}
+
+#vantagens h1{
+    color: var(--corPadrao);
+    font-size: 8px;
+}
+
+#vantagens p{
+    font-size: 6px;
+}
+
+
+
+#vantagens button{
+    border: none;
+    background-color: black;
+    color: white;
+    width: 80%;
+    height: 10%;
+    border-radius: 5px;
+    font-size: 7px;
+}
+
+
+/*SEGMENTOS*/
+
+#csegmentos{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 6%;
+    background-color: transparent;
+    position: relative;
+    float: left;
+    padding: 2% 5% 2% 5%;
+    width: 90%;
+    height: 70%;
+    margin-bottom: 8%;
+}
+
+.segmentos-item{
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.segmentos-item:hover{
+    background-color: var(--corBlack);
+    color: white;
+}
+
+.segmentos-icons{
+    position: relative;
+    float: left;
+    top: 10%;
+    left: -10%;
+    width: 100%;
+    height: 80%;
+    background-color: var(--corBlack);
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 30%;
+}
+
+.segmentos-icons img{
+    position: relative;
+    width: 120%;
+    left: -10%;
+}
+
+.segmentos-item h3{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 5px;
+}
+
+
+/*PRODUTOS*/
+
+#csgi{
+    background-color: var(--corPadrao);
+    position: relative;
+    float: left;
+    padding: 2% 0% 2% 0%;
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+
+#carousel{
+    display: grid;
+    grid-template-columns: repeat(2, 100%);
+    position: relative;
+    width: 100%;
+    height: 10%;
+    background-color: var(--corPadrao);
+}
+
+
+.carousel-item{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+    row-gap: 100%;
+    width: 100%;
+    height: 20%;
+    top: 20%;
+    background-color: var(--corPadrao);
+    max-height: 100%;
+}
+
+.sgi-icon img{
+    width: 100%;
+    position: relative;
+}
+
+.carousel-item > div{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    padding: 0px;
+    text-align: center;
+    border-radius: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.sgi-item > div{
+    position: relative;
+    float: left;
+    top: -20%;
+    left: 10%;
+    width: 80%;
+    height: 60%;
+    background-color: var(--corBlack);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.carousel-item > div:hover{
+    background-color: var(--corBlack);
+    color: white;
+}
+
+.sgi-item h3{
+    position: relative;
+    float: left;
+    top: -10%;
+    width: 100%;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+#mobilidade, #extra{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: transparent;
+    position: relative;
+    float: left;
+    padding: 5% 0% 5% 0%;
+    width: 100%;
+    height: 10%;
+    column-gap: 5%;
+
+}
+
+#mobilidade > div, #extra > div{
+    overflow: hidden;
+    margin-left: 10%;
+    background-color: white;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+
+#extra h3{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--grafite);
+}
+
+#mobilidade h3{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--grafite);
+}
+
+
+
+.m-e-icon{
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 100%;
+
+}
+
+.m-e-icon img{
+    position: relative;
+    width: 120%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#notas-fiscais{
+    display: grid;
+    grid-template-areas:
+      'item1 item1 item1 icon1 icon1 icon1'
+      'icon2 icon2 icon2 item2 item2 item2'
+      'item3 item3 item3 icon3 icon3 icon3';
+      background-color: transparent;
+      row-gap: 5%;
+      position: relative;
+      float: left;
+      padding: 5% 5% 5% 5%;
+      width: 100%;
+      height: 180%;
+      max-height: 180%;
+      max-width: 90%;
+}
+
+#notas-fiscais > div{
+    padding: 2%;
+    overflow: hidden;
+
+}
+
+#notas-fiscais h1{
+    color: var(--corSecundaria);
+    font-size: 10px;
+}
+
+.nota-item2 p{
+    margin-left: 15%;
+}
+
+.nota-item2 h1{
+    margin-left: 15%;
+}
+
+#notas-fiscais p{
+    width: 80%;
+    font-size: 7px;
+}
+
+.nota-icons{
+    background-color: var(--corPadrao);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.nota-icons img{
+    position: relative;
+    top: 20%;
+    background-color: transparent;
+    width: 150%;
+    left: -25%;
+    transform: translateY(-20%);
+    border-radius: 15px;
+}
+
+.nota-item1{ grid-area: item1; }
+.nota-icon1{ grid-area: icon1; }
+.nota-item2{ grid-area: item2; }
+.nota-icon2{ grid-area: icon2; }
+.nota-item3{ grid-area: item3; }
+.nota-icon3{ grid-area: icon3; }
+
+
+
+/*SUPORTE*/
+
+
+#csuporte{
+    display: grid;
+    grid-template-areas:
+      'container1 container1 container2 container2 container3 container3'
+      'container1 container1 container2 container2 container3 container3'
+      'container1 container1 container4 container4 container4 container4';
+      background-color: transparent;
+      position: relative;
+      float: left;
+      padding: 5% 5% 5% 5%;
+      width: 100%;
+      height: 180%;
+      max-height: 70%;
+      max-width: 90%;
+}
+
+.container1{ grid-area: container1; }
+.container2{ grid-area: container2; }
+.container3{ grid-area: container3; }
+.container4{ grid-area: container4; }
+
+#csuporte > div{
+    overflow: hidden;
+}
+
+#csuporte h2{
+    font-size: 8px;
+}
+
+#csuporte h3{
+    font-size: 8px;
+}
+
+#csuporte p{
+    font-size: 6px;
+}
+
+.container1 h1{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    float: right;
+    margin-right: 5%;
+    width: 80%;
+    color: white;
+    font-size: 12px;
+}
+
+.container1{
+    background-color: var(--corPadrao);
+    text-align: right;
+    border-radius: 10px;
+    border: none;
+}
+
+.container2{
+    padding: 0% 5% 0% 10%;
+}
+
+.container2 h2{
+    width: 80%;
+    background-color: white;
+}
+
+#seja-parceiro{
+    display: grid;
+    grid-template-columns: 60% auto;
+    background-color: var(--corBlack);
+    position: relative;
+    float: left;
+    padding: 0%;
+    width: 100%;
+    height: 120%;
+    border-bottom: 2px solid black;
+    /*padding: 5% 0% 5% 0%;*/
+}
+
+#seja-parceiro > div{
+    width: 100%;
+}
+
+#formulario h1{
+    margin-top: 8%;
+}
+
+#formulario{
+    background-color: var(--corBlack);
+    text-align: center;
+    overflow: hidden;
+    padding: 0% 2% 0% 2%;
+    color: white;
+}
+
+#formulario p{
+    position: relative;
+    background-color: transparent;
+    width: 70%;
+    left: 15%;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 3%;
+}
+
+.loguin{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    width: 100%;
+    height: 50%;
+    color: white;
+}
+
+
+
+.loguin-field{
+    color: black;
+}
+
+.loguin-field > input{
+    width: 100%;
+    border: none;
+	background: none;
+	padding: 2px;
+	padding-left: 5px;
+	font-weight: 700;
+	width: 75%;
+	transition: .2s;
+    margin: 3% 0% 5% 0%;
+    border-bottom: 1px solid rgb(206, 205, 205);
+}
+
+
+.loguin-button input{
+    position: relative;
+    margin-top: 2%;
+    width: 60%;
+    height: 70%;
+    padding: 2% 0% 4% 0%;
+    border-radius: 0px;
+    background-color: white;
+    color: var(--corBlack);
+    border: none;
+}
+
+
+input:active,
+input:focus,
+input:hover {
+    outline: none;
+	border-bottom-color: var(--corPadrao);
+}
+
+#maps{
+    background-color: var(--corPadrao);
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#maps:hover #maps-hover{
+    opacity: 1;
+}
+
+#maps img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#maps h2{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#maps-hover{
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 120%;
+    left: 0;
+    top: 10%;
+    position: relative;
+    transform: translateY(-100%);
+    background-color: rgba(0, 14, 32, 0.658);
+    transition: 1s;
+}
+
+#maps-hover h2{
+    cursor: pointer;
+    font-size: 8px;
+}
+
+#maps-hover > div{
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: var(--corBlack);
+    top: 42.5%;
+    left: 25%;
+    border-radius: 15px;
+    color: white;
+    transition: 1s;
+}
+
+#maps-hover > div:hover{
+    background-color: var(--corPadrao);
+}
+
+footer{
+    background-color: var(--corBlack);
+    position: relative;
+    float: left;
+    padding: 1% 0% 1% 0%;
+    width: 100%;
+    border-bottom: 2px solid black;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    display: inline-block;
+    margin: 0% 2% 0% 2%;
+}
+
+footer img{
+    width: 15%;
+}
+
+#redes-sociais{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0% 20% 0% 25%;
+}
+
+#redes-sociais > div{
+    margin-left: 20%;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
