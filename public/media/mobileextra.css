@@ -1,5 +1,5 @@
 :root{
-    --corPadrao: black;
+    --corPadrao: #F59D0F;
     --corSecundaria: #0187C7;
     --corBlack: #001E30;
     --grafite: #696969;
@@ -19,7 +19,7 @@ font-size: 30px;
 }
 
 p{
-font-size: 20px;
+font-size: 8px;
 }
 
 h2{
@@ -27,11 +27,11 @@ font-size: 20px;
 }
 
 li{
-font-size: 10px;
+font-size: 6px;
 }
 
 h3{
-font-size: 10px;
+font-size: 6px;
 }
 
 #root{
@@ -39,7 +39,7 @@ position: absolute;
 width: 100%;
 height: 90%;
 left: 0%;
-top: 4%;
+top: 12%;
 background-color: transparent;
 }
 
@@ -85,7 +85,7 @@ header{
     left: 0;
     top: 0%;
     width: 100%;
-    height: 4%;
+    height: 12%;
     border-bottom: 2px solid white;
     z-index: 1;
     color: white;
@@ -147,7 +147,7 @@ header{
     display: inline-block;
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-80%);
     padding: 2%;
     left: 15%;
     cursor: pointer;
@@ -169,7 +169,7 @@ header{
 #button-nav button{
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-65%);
     width: 90%;
     left: 5%;
     height: 50%;
@@ -178,7 +178,7 @@ header{
     color: white;
     border: none;
     cursor: pointer;
-    font-size: 10px;
+    font-size: 6px;
 }
 
 button{
@@ -192,7 +192,7 @@ button{
 #home-back{
     position: absolute;
     width: 100%;
-    height: 60%;
+    height: 70%;
     left: 0%;
     top: 5%;
     background-color: var(--corSecundaria);
@@ -206,7 +206,7 @@ button{
     position: relative;
     float: left;
     width: 100%;
-    max-height: 40%;
+    max-height: 70%;
     overflow: hidden;
     border-radius: 0% 0% 30% 30%;
 }
@@ -226,15 +226,15 @@ button{
 }
 
 #home h1{
-    font-size: 22px;
-    margin: 15% 0% 3% 10%;
+    font-size: 12px;
+    margin: 5% 0% 3% 10%;
     color: var(--corSecundaria);
 }
 
 #home p{
     margin: 0% 0% 3% 10%;
     color: var( --white);
-    font-size: 15px;
+    font-size: 8px;
 }
 
 #home button{
@@ -245,7 +245,7 @@ button{
     width: 40%;
     height: 10%;
     border-radius: 2px;
-    font-size: 10px;
+    font-size: 6px;
 }
 
 
@@ -268,20 +268,20 @@ button{
     float: left;
     padding: 2% 0% 2% 0%;
     width: 100%;
-    max-height: 40%;
+    max-height: 80%;
 }
 
 #csobre h1{
     margin: 10% 0% 3% 5%;
     color: white;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 
 #csobre p {
     margin: 0% 0% 3% 5%;
     color: white;
-    font-size: 12px;
+    font-size: 7px;
 }
 
 
@@ -323,8 +323,8 @@ button{
     float: left;
     padding: 3% 5% 3% 5%;
     width: 100%;
-    height: 140%;
-    max-height: 250%;
+    height: 260%;
+    max-height: 260%;
     max-width: 90%;
 }
 
@@ -337,18 +337,18 @@ button{
 
 #vantagens img{
     position: relative;
-    transform: translateY(-50%);
+    transform: translateY(-70%);
     width: 100%;
     top: 50%;
 }
 
 #vantagens h1{
     color: var(--corPadrao);
-    font-size: 20px;
+    font-size: 13px;
 }
 
 #vantagens p{
-    font-size: 15px;
+    font-size: 8px;
 }
 
 
@@ -375,7 +375,7 @@ button{
     float: left;
     padding: 2% 5% 2% 5%;
     width: 90%;
-    height: 30%;
+    height: 70%;
     margin-bottom: 6%;
 
 }
@@ -422,7 +422,7 @@ button{
     padding: 0;
     position: relative;
     float: left;
-    font-size: 10px;
+    font-size: 7px;
     left: -13%;
     top: 50%;
     transform: translateY(-50%);
@@ -437,7 +437,7 @@ button{
     float: left;
     padding: 2% 0% 2% 0%;
     width: 100%;
-    height: 35%;
+    height: 50%;
     overflow: hidden;
 }
 
@@ -447,7 +447,7 @@ button{
     position: relative;
     top: 10%;
     width: 100%;
-    height: 80%;
+    height: 100%;
     background-color: var(--corPadrao);
 }
 
@@ -507,7 +507,7 @@ button{
     background-color: transparent;
     margin: 0;
     padding: 0;
-    font-size: 11px;
+    font-size: 7px;
 }
 
 #mobilidade, #extra{
@@ -518,7 +518,7 @@ button{
     float: left;
     padding: 5% 0% 5% 0%;
     width: 100%;
-    height: 7%;
+    height: 12%;
     column-gap: 5%;
 
 }
@@ -542,7 +542,7 @@ button{
     top: 50%;
     transform: translateY(-50%);
     color: var(--grafite);
-        font-size: 11px;
+        font-size: 7px;
 }
 
 #mobilidade h3{
@@ -552,7 +552,7 @@ button{
     top: 50%;
     transform: translateY(-50%);
     color: var(--grafite);
-    font-size: 11px;
+    font-size: 7px;
 }
 
 
@@ -584,8 +584,8 @@ button{
       float: left;
       padding: 5% 5% 5% 5%;
       width: 100%;
-      height: 110%;
-      max-height: 180%;
+      height: 190%;
+      max-height: 190%;
       max-width: 90%;
 }
 
@@ -597,7 +597,8 @@ button{
 
 #notas-fiscais h1{
     color: var(--corSecundaria);
-    font-size: 20px;}
+    font-size: 12px;
+}
 
 .nota-item2 p{
     margin-left: 15%;
@@ -609,7 +610,7 @@ button{
 
 #notas-fiscais p{
     width: 80%;
-    font-size: 14px;
+    font-size: 9px;
 }
 
 .nota-icons{
@@ -651,7 +652,7 @@ button{
       float: left;
       padding: 5% 5% 5% 5%;
       width: 100%;
-      height: 25%;
+      height: 40%;
       max-height: 70%;
       max-width: 90%;
 }
@@ -666,15 +667,15 @@ button{
 }
 
 #csuporte h2{
-    font-size: 20px;
+    font-size: 8px;
 }
 
 #csuporte h3{
-    font-size: 12px;
+    font-size: 8px;
 }
 
 #csuporte p{
-    font-size: 10px;
+    font-size: 6px;
 }
 
 .container1 h1{
@@ -685,9 +686,9 @@ button{
     transform: translateY(-50%);
     float: right;
     margin-right: 5%;
-    width: 60%;
+    width: 80%;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .container1{
@@ -695,7 +696,6 @@ button{
     text-align: right;
     border-radius: 10px;
     border: none;
-    padding: 0;
 }
 
 .container2{
@@ -705,7 +705,6 @@ button{
 .container2 h2{
     width: 80%;
     background-color: white;
-
 }
 
 #seja-parceiro{
@@ -716,13 +715,17 @@ button{
     float: left;
     padding: 0%;
     width: 100%;
-    height: 60%;
+    height: 110%;
     border-bottom: 2px solid black;
     /*padding: 5% 0% 5% 0%;*/
 }
 
 #seja-parceiro > div{
     width: 100%;
+}
+
+#seja-parceiro h1{
+    font-size: 10px;
 }
 
 #formulario h1{
@@ -752,7 +755,7 @@ button{
     flex-direction: column;
     background-color: transparent;
     width: 100%;
-    height: 50%;
+    height: 30%;
     color: white;
 }
 
@@ -780,9 +783,9 @@ button{
     position: relative;
     margin-top: 2%;
     width: 60%;
-    height: 70%;
+    height: 60%;
     padding: 2% 0% 4% 0%;
-    border-radius: 0px;
+    border-radius: 5px;
     background-color: white;
     color: var(--corBlack);
     border: none;

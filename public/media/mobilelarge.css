@@ -19,7 +19,7 @@ font-size: 30px;
 }
 
 p{
-font-size: 15px;
+font-size: 20px;
 }
 
 h2{
@@ -39,7 +39,7 @@ position: absolute;
 width: 100%;
 height: 90%;
 left: 0%;
-top: 8%;
+top: 4%;
 background-color: transparent;
 }
 
@@ -58,25 +58,12 @@ color: white;
 }
 
 .title-sections h1{
-font-size: 40px;
+font-size: 20px;
 margin: 0;
 padding: 0;
 }
 
-:root{
---corPadrao: #F59D0F;
---corSecundaria: #0187C7;
---corBlack: #001E30;
---grafite: #696969;
---white: white;
 
-/*Font Size*/
---padrao: 16px;
---titulo: 30px;
---subtitulo: 30px;
---paragrafo: 16px;
---minifont: 13px;
-}
 
 
 
@@ -98,7 +85,7 @@ header{
     left: 0;
     top: 0%;
     width: 100%;
-    height: 10%;
+    height: 4%;
     border-bottom: 2px solid white;
     z-index: 1;
     color: white;
@@ -107,7 +94,7 @@ header{
 #logo{
     position: relative;
     float: left;
-    width: 25%;
+    width: 20%;
     height: 100%;
 }
 
@@ -115,8 +102,8 @@ header{
 #logo img{
     position:relative;
     float: left;
-    width: 8%;
-    margin: 0 0 0 5%;
+    width: 25%;
+    margin: 0 0 0 10%;
     padding: 0;
     top: 50%;
     transform: translateY(-50%);
@@ -133,7 +120,7 @@ header{
     top: 50%;
     transform: translateY(-50%);
     float: left;
-    margin: 0 0 0 4%;
+    margin: 0 0 0 5%;
     padding: 0;
     cursor: pointer;
 }
@@ -141,7 +128,7 @@ header{
 #menu{
     position: relative;
     float: left;
-    width: 65%;
+    width: 60%;
     height: 100%;
 }
 
@@ -174,21 +161,24 @@ header{
 #button-nav{
     position: relative;
     float: left;
-    width: 10%;
+    width: 20%;
     height: 100%;
+    background-color: var(--corPadrao);
 }
 
 #button-nav button{
     position: relative;
-    top: 15%;
-    width: 80%;
-    height: 70%;
-    left: 10%;
-    border-radius: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 90%;
+    left: 5%;
+    height: 50%;
+    border-radius: 2px;
     background-color: var(--corBlack);
     color: white;
     border: none;
     cursor: pointer;
+    font-size: 15px;
 }
 
 button{
@@ -202,9 +192,9 @@ button{
 #home-back{
     position: absolute;
     width: 100%;
-    height: 90%;
+    height: 60%;
     left: 0%;
-    top: 10%;
+    top: 5%;
     background-color: var(--corSecundaria);
 }
 
@@ -216,47 +206,46 @@ button{
     position: relative;
     float: left;
     width: 100%;
-    max-height: 90%;
+    max-height: 30%;
     overflow: hidden;
-    border-radius: 0% 0% 45% 45%;
+    border-radius: 0% 0% 30% 30%;
 }
  
 #home > div {
     background-color: transparent;
-    width: 50%;
+    width: 60%;
     margin: 10px;
     text-align: left;
     overflow: hidden;
 }
 
 #home img{
-    text-align: center;
-    transform: translateY(-10%);
+    transform: translateX(-10%);
     height: 100%;
-    left: 20%;
     background-color: transparent;
 }
 
 #home h1{
-    font-size: 50px;
-    margin: 10% 0% 3% 20%;
+    font-size: 26px;
+    margin: 15% 0% 3% 10%;
     color: var(--corSecundaria);
 }
 
 #home p{
-    margin: 0% 0% 3% 20%;
+    margin: 0% 0% 3% 10%;
     color: var( --white);
-    font-size: var(--paragrafo);
+    font-size: 22px;
 }
 
 #home button{
-    margin: 0% 0% 3% 20%;
+    margin: 0% 0% 3% 10%;
     border: none;
     background-color: black;
     color: white;
-    width: 15%;
-    height: 7%;
-    border-radius: 10px;
+    width: 40%;
+    height: 10%;
+    border-radius: 2px;
+    font-size: 15px;
 }
 
 
@@ -279,22 +268,28 @@ button{
     float: left;
     padding: 2% 0% 2% 0%;
     width: 100%;
-    max-height: 70%;
+    max-height: 40%;
 }
 
 #csobre h1{
-    margin: 10% 0% 3% 15%;
+    margin: 10% 0% 3% 5%;
     color: white;
+    font-size: 26px;
 }
 
 
 #csobre p {
-    margin: 0% 0% 3% 15%;
+    margin: 0% 0% 3% 5%;
     color: white;
+    font-size: 20px;
 }
 
+
 #csobre img{
- width: 70%;
+ width: 100%;
+ top: 50%;
+ position: relative;
+ transform: translateY(-50%);
 }
  
 #csobre > div{
@@ -328,8 +323,8 @@ button{
     float: left;
     padding: 3% 5% 3% 5%;
     width: 100%;
-    height: 180%;
-    max-height: 180%;
+    height: 120%;
+    max-height: 250%;
     max-width: 90%;
 }
 
@@ -341,22 +336,31 @@ button{
 }
 
 #vantagens img{
-    transform: translateY(-10%);
-    width: 70%;
+    position: relative;
+    transform: translateY(-70%);
+    width: 100%;
+    top: 50%;
 }
 
 #vantagens h1{
     color: var(--corPadrao);
+    font-size: 25px;
 }
+
+#vantagens p{
+    font-size: 20px;
+}
+
 
 
 #vantagens button{
     border: none;
     background-color: black;
     color: white;
-    width: 15%;
-    height: 10%;
-    border-radius: 10px;
+    width: 60%;
+    height: 8%;
+    border-radius: 5px;
+    font-size: 10px;
 }
 
 
@@ -366,13 +370,14 @@ button{
     display: grid;
     grid-template-columns: auto auto auto auto;
     column-gap: 6%;
-    background-color: white;
+    background-color: transparent;
     position: relative;
     float: left;
     padding: 2% 5% 2% 5%;
     width: 90%;
-    height: 40%;
-    margin-bottom: 8%;
+    height: 30%;
+    margin-bottom: 6%;
+
 }
 
 .segmentos-item{
@@ -395,19 +400,21 @@ button{
     position: relative;
     float: left;
     top: 10%;
-    left: -5%;
-    width: 20%;
+    left: -20%;
+    width: 100%;
     height: 80%;
     background-color: var(--corBlack);
     border-radius: 15px;
     overflow: hidden;
-    max-width: 20%;
+    max-width: 40%;
 }
 
 .segmentos-icons img{
     position: relative;
-    width: 120%;
-    left: -10%;
+    top: 50%;
+    transform: translateY(-60%);
+    width: 100%;
+    left: 0%;
 }
 
 .segmentos-item h3{
@@ -415,6 +422,8 @@ button{
     padding: 0;
     position: relative;
     float: left;
+    font-size: 18px;
+    left: -13%;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -428,7 +437,7 @@ button{
     float: left;
     padding: 2% 0% 2% 0%;
     width: 100%;
-    height: 80%;
+    height: 35%;
     overflow: hidden;
 }
 
@@ -436,8 +445,9 @@ button{
     display: grid;
     grid-template-columns: repeat(2, 100%);
     position: relative;
+    top: 10%;
     width: 100%;
-    height: 100%;
+    height: 80%;
     background-color: var(--corPadrao);
 }
 
@@ -447,25 +457,25 @@ button{
     display: grid;
     grid-template-columns: auto auto auto auto;
     position: relative;
-    row-gap: 20%;
-    width: 100%;
-    height: 80%;
-    top: 10%;
-    background-color: var(--corPadrao);
+    row-gap: 5%;
+    top: 0%;
+    background-color: transparent;
     max-height: 100%;
 }
 
 .sgi-icon img{
-    width: 100%;
+    width: 90%;
     position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .carousel-item > div{
     margin-left: 20%;
     margin-right: 20%;
     background-color: white;
-    padding: 20px;
-    font-size: 30px;
+    height: 80%;
+    padding: 0px;
     text-align: center;
     border-radius: 15px;
     transition: 1s;
@@ -475,9 +485,9 @@ button{
 .sgi-item > div{
     position: relative;
     float: left;
-    top: -40%;
-    left: 30%;
-    width: 40%;
+    top: -20%;
+    left: 20%;
+    width: 60%;
     height: 60%;
     background-color: var(--corBlack);
     border-radius: 50%;
@@ -497,9 +507,10 @@ button{
     background-color: transparent;
     margin: 0;
     padding: 0;
+    font-size: 18px;
 }
 
-#mobilidade{
+#mobilidade, #extra{
     display: grid;
     grid-template-columns: auto auto auto auto;
     background-color: transparent;
@@ -507,33 +518,22 @@ button{
     float: left;
     padding: 5% 0% 5% 0%;
     width: 100%;
-    height: 10%;
+    height: 7%;
     column-gap: 5%;
 
 }
 
-#mobilidade > div{
+#mobilidade > div, #extra > div{
     overflow: hidden;
     margin-left: 10%;
     background-color: white;
     width: 80%;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-#extra{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    background-color: transparent;
-    position: relative;
-    float: left;
-    padding: 5% 0% 5% 0%;
-    width: 100%;
-    height: 10%;
-    column-gap: 5%;
 
-}
 
 #extra h3{
     margin: 0;
@@ -542,6 +542,7 @@ button{
     top: 50%;
     transform: translateY(-50%);
     color: var(--grafite);
+        font-size: 18px;
 }
 
 #mobilidade h3{
@@ -551,17 +552,10 @@ button{
     top: 50%;
     transform: translateY(-50%);
     color: var(--grafite);
+    font-size: 18px;
 }
 
-#extra > div{
-    overflow: hidden;
-    margin-left: 10%;
-    background-color: white;
-    width: 80%;
-    text-align: center;
-    border-radius: 15px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
+
 
 .m-e-icon{
     position: relative;
@@ -573,7 +567,9 @@ button{
 
 .m-e-icon img{
     position: relative;
-    width: 100%;
+    width: 120%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #notas-fiscais{
@@ -588,7 +584,7 @@ button{
       float: left;
       padding: 5% 5% 5% 5%;
       width: 100%;
-      height: 180%;
+      height: 90%;
       max-height: 180%;
       max-width: 90%;
 }
@@ -601,7 +597,7 @@ button{
 
 #notas-fiscais h1{
     color: var(--corSecundaria);
-}
+    font-size: 25px;}
 
 .nota-item2 p{
     margin-left: 15%;
@@ -613,17 +609,22 @@ button{
 
 #notas-fiscais p{
     width: 80%;
+    font-size: 20px;
 }
 
 .nota-icons{
     background-color: var(--corPadrao);
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .nota-icons img{
+    position: relative;
+    top: 50%;
     background-color: transparent;
-    width: 100%;
-    transform: translateY(-20%);
+    width: 190%;
+    left: -50%;
+    transform: translateY(-45%);
     border-radius: 15px;
 }
 
@@ -650,8 +651,8 @@ button{
       float: left;
       padding: 5% 5% 5% 5%;
       width: 100%;
-      height: 180%;
-      max-height: 60%;
+      height: 25%;
+      max-height: 70%;
       max-width: 90%;
 }
 
@@ -664,6 +665,18 @@ button{
     overflow: hidden;
 }
 
+#csuporte h2{
+    font-size: 25px;
+}
+
+#csuporte h3{
+    font-size: 20px;
+}
+
+#csuporte p{
+    font-size: 15px;
+}
+
 .container1 h1{
     position: relative;
     margin: 0;
@@ -672,16 +685,17 @@ button{
     transform: translateY(-50%);
     float: right;
     margin-right: 5%;
-    width: 80%;
+    width: 60%;
     color: white;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .container1{
     background-color: var(--corPadrao);
     text-align: right;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
+    padding: 0;
 }
 
 .container2{
@@ -691,6 +705,7 @@ button{
 .container2 h2{
     width: 80%;
     background-color: white;
+
 }
 
 #seja-parceiro{
@@ -701,7 +716,7 @@ button{
     float: left;
     padding: 0%;
     width: 100%;
-    height: 100%;
+    height: 40%;
     border-bottom: 2px solid black;
     /*padding: 5% 0% 5% 0%;*/
 }
@@ -711,21 +726,22 @@ button{
 }
 
 #formulario h1{
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 #formulario{
     background-color: var(--corBlack);
-    text-align: left;
+    text-align: center;
     overflow: hidden;
-    padding: 0% 10% 0% 10%;
+    padding: 0% 2% 0% 2%;
     color: white;
 }
 
 #formulario p{
+    position: relative;
     background-color: transparent;
     width: 70%;
-    left: 25%;
+    left: 15%;
     font-weight: 700;
     color: white;
     margin-bottom: 3%;
@@ -750,12 +766,12 @@ button{
     width: 100%;
     border: none;
 	background: none;
-	padding: 10px;
-	padding-left: 24px;
+	padding: 2px;
+	padding-left: 5px;
 	font-weight: 700;
 	width: 75%;
 	transition: .2s;
-    margin: 2% 0% 2% 0%;
+    margin: 3% 0% 5% 0%;
     border-bottom: 1px solid rgb(206, 205, 205);
 }
 
@@ -766,7 +782,6 @@ button{
     width: 60%;
     height: 70%;
     padding: 2% 0% 4% 0%;
-    left: 10%;
     border-radius: 0px;
     background-color: white;
     color: var(--corBlack);
@@ -809,7 +824,7 @@ input:hover {
 }
 
 #maps-hover{
-    opacity: 0;
+    opacity: 1;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -818,12 +833,13 @@ input:hover {
     top: 10%;
     position: relative;
     transform: translateY(-100%);
-    background-color: rgba(0, 14, 32, 0.911);
+    background-color: rgba(0, 14, 32, 0.658);
     transition: 1s;
 }
 
 #maps-hover h2{
     cursor: pointer;
+    font-size: 8px;
 }
 
 #maps-hover > div{
@@ -833,7 +849,7 @@ input:hover {
     background-color: var(--corBlack);
     top: 42.5%;
     left: 25%;
-    border-radius: 50px;
+    border-radius: 15px;
     color: white;
     transition: 1s;
 }
@@ -865,13 +881,17 @@ footer li{
 }
 
 footer img{
-    width: 5%;
+    width: 15%;
+}
+
+footer h1{
+    font-size: 10px;
 }
 
 #redes-sociais{
     display: flex;
     flex-wrap: nowrap;
-    padding: 0% 40% 0% 40%;
+    padding: 0% 20% 0% 25%;
 }
 
 #redes-sociais > div{

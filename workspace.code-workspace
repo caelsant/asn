@@ -1,7 +1,13 @@
 {
 	"folders": [
 		{
-			"path": "..\\..\\Desktop\\ASN NOVO"
+			"path": "."
+		},
+		{
+			"path": "..\\testes"
+		},
+		{
+			"path": "..\\..\\Documents\\chave"
 		}
 	],
 	"settings": {}
