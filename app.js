@@ -1,16 +1,16 @@
 const express = require('express');
 var app = express();
 const path = require("path");
-const Users = require("./models/user.js")
-const db = require("./models/db.js")
-const bodyParser = require("body-parser");
-const { Op } = require("sequelize");
+//const Users = require("./models/user.js")
+//const db = require("./models/db.js")
+//const bodyParser = require("body-parser");
+//const { Op } = require("sequelize");
 
 
 //config
     //template engine
     const handlebars = require('express-handlebars');
-const User = require('./models/user.js');
+//const User = require('./models/user.js');
 
     app.engine('handlebars',handlebars.engine({defautLayout: 'main',
     runtimeOptions: {
@@ -22,7 +22,7 @@ const User = require('./models/user.js');
 
     app.set('view engine', 'handlebars');
 
-    app.use(bodyParser.urlencoded({extended: false}))
+   // app.use(bodyParser.urlencoded({extended: false}))
     app.use(bodyParser.json())
 
     app.use(express.static('public'));
@@ -33,7 +33,7 @@ app.get("/index", function(req, res){
     res.render('index')
 })
 
-app.get("/dash", async(req, res) => {
+/*app.get("/dash", async(req, res) => {
     User.findAll({
 
       }).then(
@@ -61,7 +61,7 @@ app.post("/add", function(req, res){
             console.log("Deu erro: " + err);
         }
     )
-})
+})*/
 
 app.listen(3031, function(){
     console.log("Funcionando");
