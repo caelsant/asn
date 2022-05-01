@@ -1,0 +1,127 @@
+@media screen and (min-width: 380px) {
+    :root{
+        /*MENU RESPOSIVE*/
+        --heigthHome: 20%;
+        --fontH1-Home: 20px;
+        --colorPrincipal: #F59D0F;
+        --colorSecundaria: #015A84;
+        --fontSections: 1em;
+    
+        /*Alturas*/
+        --fontGrande: 2.2em;
+        --fontMGrande:1.3em;
+        --fontMedia: 1.0em;
+        --fontPequena: 1em;
+        --fontMinuscula: 0.9em;
+        --fontMINI: 0.3em;
+    
+        /*HEIGHTS*/
+        --homeHeight: 240%;
+        --sobreHeight: 100%;
+        --produtosHeight: 130%;
+        --segmentosHeight: 20%;
+        --suportHeight: 20%;
+        --footerHeight: 15%;
+        --headerHeight: 3%;
+        --containerHeight: 93%;
+        --containerTop: 3%;
+
+        /*especificos*/
+        --segmentosMargin: 30%;
+        --suportMargin: 0%;
+        --alanPositionW: 100%;
+        --imgSobre: -30%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    :root{
+        /*MENU RESPOSIVE*/
+        --heigthHome: 85%;
+        --fontH1-Home: 20px;
+        --colorPrincipal: #0ff5e2;
+        --colorSecundaria: #015A84;
+        --fontSections: 2.8em;
+    
+        /*Alturas*/
+        --fontGrande: 3.2em;
+        --fontMGrande:2.3em;
+        --fontMedia: 2.0em;
+        --fontPequena: 1.5em;
+        --fontMinuscula: 1.2em;
+        --fontMINI: 0.7em;
+    
+        /*HEIGHTS*/
+        --homeHeight: 240%;
+        --sobreHeight: 240%;
+        --produtosHeight: 400%;
+        --segmentosHeight: 100%;
+        --suportHeight: 70%;
+        --footerHeight: 40%;
+        --headerHeight: 10%;
+        --containerHeight: 90%;
+        --containerTop: 10%;
+    
+        /*especificos*/
+        --segmentosMargin: 55%;
+        --suportMargin: 10%;
+        --alanPositionT: -20%;
+        --alanPositionW: 70%;
+        --imgSobre: -50%;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    :root{
+        /*MENU RESPOSIVE*/
+        --heigthHome: 85%;
+        --fontH1-Home: 20px;
+        --colorPrincipal: #F59D0F;
+        --colorSecundaria: #015A84;
+        --fontSections: 2.8em;
+    
+        /*Alturas*/
+        --fontGrande: 3.2em;
+        --fontMGrande:2.3em;
+        --fontMedia: 2.0em;
+        --fontPequena: 1.5em;
+        --fontMinuscula: 1.2em;
+        --fontMINI: 0.7em;
+    
+        /*HEIGHTS*/
+        --homeHeight: 240%;
+        --sobreHeight: 240%;
+        --produtosHeight: 400%;
+        --segmentosHeight: 100%;
+        --suportHeight: 70%;
+        --footerHeight: 40%;
+    }
+}
+
+
+@media screen and (min-width: 1920px) {
+    :root{
+        /*MENU RESPOSIVE*/
+        --heigthHome: 85%;
+        --fontH1-Home: 20px;
+        --colorPrincipal: #F59D0F;
+        --colorSecundaria: #015A84;
+        --fontSections: 2.8em;
+    
+        /*Alturas*/
+        --fontGrande: 3.2em;
+        --fontMGrande:2.3em;
+        --fontMedia: 2.0em;
+        --fontPequena: 1.5em;
+        --fontMinuscula: 1.2em;
+        --fontMINI: 0.7em;
+    
+        /*HEIGHTS*/
+        --homeHeight: 240%;
+        --sobreHeight: 240%;
+        --produtosHeight: 400%;
+        --segmentosHeight: 100%;
+        --suportHeight: 70%;
+        --footerHeight: 40%;
+    }
+}

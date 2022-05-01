@@ -1,0 +1,186 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(241, 247, 255);
+}
+
+
+header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 20%;
+    background-color: transparent;
+    text-align: center;
+}
+
+header img{
+    position: relative;
+    width: 5%;
+}
+
+header h1{
+    margin: 0% 0% 2% 0%;
+    font-size: 20px;
+    color: black;
+}
+
+#visitor-conteiner{
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 90%;
+    height: 15%;
+    background-color: transparent;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10%;
+    padding: 0% 5% 0% 5%;
+}
+
+#visitor-conteiner h1{
+    font-size: 12px;
+}
+
+#visitor-conteiner h2{
+    margin: 0;
+    padding: 0;
+}
+
+#visitor-conteiner > div{
+    top: 15%;
+    height: 70%;
+    color: #F59D0F;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    background-color: white;
+    border-radius: 5px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;}
+
+#contact-clients{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    height: 7%;
+    background-color: transparent;
+    text-align: center;
+}
+
+#contact-controler{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5%;
+    width: 70%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    float: left;
+    background-color: transparent;
+    padding: 0% 15% 0% 15%;
+}
+
+#contact-controler input[type="radio"]{
+    display: none;
+}
+
+#contact-controler label{
+    overflow: hidden;
+    position: relative;
+    float: left;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;}
+#contact-controler label:hover{
+    color: #F59D0F;
+}
+#contact-controler h3{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+}
+
+#contact-controler input[type="radio"]:checked + label {
+     background-color: #F59D0F; 
+     color: white;
+    }
+
+#clients{
+    display: grid;
+    grid-template-columns: repeat(3, 27%);
+    gap: 10%;
+    width: 90%;
+    padding: 0% 0% 10% 5%;
+    height: 120%;
+    position: relative;
+    left: 0;
+    float: left;
+    background-color: transparent;
+    overflow: show;
+    margin-top: 4%;
+}
+
+#clients::-webkit-scrollbar{
+    display: none;
+}
+
+.client-wrapp{
+    margin-bottom: 8%;
+    padding: 0% 10% 10% 10%;
+    background-color: white;
+    text-align: left;
+    border-radius: 15px;
+    transition: 1s;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;}
+
+.client-wrapp:hover{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;}
+
+.client-wrapp i{
+    width: 12%;
+    color: #F59D0F;
+}
+.client-wrapp h2{
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    color: rgb(121, 121, 121);
+}
+
+.client-wrapp ul{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.client-wrapp li{
+    background-color: transparent;
+    padding: 5px;
+    border: 1px solid transparent;
+    margin: 2% 0% 2% 0%;
+}
+
+.client-wrapp input{
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 2%;
+    border-radius: 5px;
+    border: none;
+    margin: 5% 0% 10% 0%;
+    bottom: 1%;
+    cursor: pointer;
+}
