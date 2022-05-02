@@ -1,12 +1,14 @@
 const Sequelize = require('sequelize');
 
-const db = new Sequelize( 
-    "ejsdb",
-   "admin",
-   "66325489", {
-    host: "ejs-db-2.c1c2ntdfepv4.sa-east-1.rds.amazonaws.com",
-    dialect: "mysql"
-});
+const db = new Sequelize(
+    "asn",
+    "root",
+    "6632",
+    {
+        host: "localhost",
+        dialect: "mysql"
+    }
+);
 
 db.authenticate().then(
     function(){
