@@ -12,9 +12,9 @@
 //}
 
 
-const slider = document.querySelector("#carousel_wrapp");
-const items = document.querySelectorAll(".sgi-carousel")
-const todosRadios = document.querySelectorAll('input[name="carousel"]');
+const slider = document.querySelector("#carousel");
+const items = document.querySelectorAll(".carousel-item")
+//const todosRadios = document.querySelectorAll('input[name="carousel"]');
 var rolar = true;
 let posicao = 0;
 const size = items[0].clientWidth;
@@ -35,7 +35,7 @@ setInterval(() => {
     }else{
         rolar == true
     }
-}, 3000);
+}, 4000);
 
 function animar(){
     if(posicao == 1){
@@ -57,7 +57,7 @@ function animar(){
     }
 }
 
-
+/*
 function verificarRadio(){
     if(todosRadios[0].checked){
         posicao = -1;
@@ -68,6 +68,6 @@ function verificarRadio(){
     }else{
         console.log("Nenhum Radio Ativo")
     }
-}
+}*/
 
 

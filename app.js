@@ -5,12 +5,11 @@ const Users = require("./models/user.js")
 const db = require("./models/db.js")
 const bodyParser = require("body-parser");
 //const { Op } = require("sequelize");
-var js = require("./public/js/js.js")
 
 //config
     //template engine
     const User = require('./models/user.js');
-    const filtro = require('./public/js/js.js');
+
 
     app.set("view engine", "ejs");
     app.set('views', './views');
@@ -35,7 +34,6 @@ app.get("/dash", async(req, res) => {
     User.findAll({
       }).then(
           function(elementos){
-              console.log(filtro);
 
               res.render("dashboard", {posts: elementos})
           }
