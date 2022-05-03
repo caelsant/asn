@@ -19,7 +19,7 @@ font-size: 30px;
 }
 
 p{
-font-size: 20px;
+font-size: 8px;
 }
 
 h2{
@@ -27,11 +27,11 @@ font-size: 20px;
 }
 
 li{
-font-size: 10px;
+font-size: 6px;
 }
 
 h3{
-font-size: 12px;
+font-size: 6px;
 }
 
 #root{
@@ -147,7 +147,7 @@ header{
     display: inline-block;
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-80%);
     padding: 2%;
     left: 15%;
     cursor: pointer;
@@ -169,7 +169,7 @@ header{
 #button-nav button{
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-100%);
     width: 90%;
     left: 5%;
     height: 50%;
@@ -178,7 +178,7 @@ header{
     color: white;
     border: none;
     cursor: pointer;
-    font-size: 10px;
+    font-size: 6px;
 }
 
 button{
@@ -228,15 +228,15 @@ button{
 }
 
 #home h1{
-    font-size: 22px;
-    margin: 15% 0% 3% 10%;
+    font-size: 16px;
+    margin: 5% 0% 3% 10%;
     color: var(--corSecundaria);
 }
 
 #home p{
     margin: 0% 0% 3% 10%;
     color: var( --white);
-    font-size: 15px;
+    font-size: 9px;
 }
 
 #home button{
@@ -270,20 +270,20 @@ button{
     float: left;
     padding: 2% 0% 2% 0%;
     width: 100%;
-    max-height: 40%;
+    max-height: 50%;
 }
 
 #csobre h1{
     margin: 10% 0% 3% 5%;
     color: white;
-    font-size: 20px;
+    font-size: 12px;
 }
 
 
 #csobre p {
     margin: 0% 0% 3% 5%;
     color: white;
-    font-size: 15px;
+    font-size: 9px;
 }
 
 
@@ -325,7 +325,7 @@ button{
     float: left;
     padding: 3% 5% 3% 5%;
     width: 100%;
-    height: 140%;
+    height: 160%;
     max-height: 250%;
     max-width: 90%;
 }
@@ -346,11 +346,11 @@ button{
 
 #vantagens h1{
     color: var(--corPadrao);
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #vantagens p{
-    font-size: 15px;
+    font-size: 11px;
 }
 
 
@@ -424,7 +424,7 @@ button{
     padding: 0;
     position: relative;
     float: left;
-    font-size: 12px;
+    font-size: 7px;
     left: -13%;
     top: 50%;
     transform: translateY(-50%);
@@ -509,7 +509,7 @@ button{
     background-color: transparent;
     margin: 0;
     padding: 0;
-    font-size: 13px;
+    font-size: 7px;
 }
 
 #mobilidade, #extra{
@@ -544,7 +544,7 @@ button{
     top: 50%;
     transform: translateY(-50%);
     color: var(--grafite);
-        font-size: 13px;
+        font-size: 7px;
 }
 
 #mobilidade h3{
@@ -554,7 +554,7 @@ button{
     top: 50%;
     transform: translateY(-50%);
     color: var(--grafite);
-    font-size: 13px;
+    font-size: 7px;
 }
 
 
@@ -586,7 +586,7 @@ button{
       float: left;
       padding: 5% 5% 5% 5%;
       width: 100%;
-      height: 90%;
+      height: 120%;
       max-height: 180%;
       max-width: 90%;
 }
@@ -599,7 +599,8 @@ button{
 
 #notas-fiscais h1{
     color: var(--corSecundaria);
-    font-size: 20px;}
+    font-size: 15px;
+}
 
 .nota-item2 p{
     margin-left: 15%;
@@ -611,7 +612,7 @@ button{
 
 #notas-fiscais p{
     width: 80%;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .nota-icons{
@@ -668,15 +669,15 @@ button{
 }
 
 #csuporte h2{
-    font-size: 20px;
+    font-size: 8px;
 }
 
 #csuporte h3{
-    font-size: 12px;
+    font-size: 8px;
 }
 
 #csuporte p{
-    font-size: 10px;
+    font-size: 6px;
 }
 
 .container1 h1{
@@ -687,9 +688,9 @@ button{
     transform: translateY(-50%);
     float: right;
     margin-right: 5%;
-    width: 60%;
+    width: 80%;
     color: white;
-    font-size: 24px;
+    font-size: 15px;
 }
 
 .container1{
@@ -697,7 +698,6 @@ button{
     text-align: right;
     border-radius: 10px;
     border: none;
-    padding: 0;
 }
 
 .container2{
@@ -707,7 +707,6 @@ button{
 .container2 h2{
     width: 80%;
     background-color: white;
-
 }
 
 #seja-parceiro{
@@ -718,7 +717,7 @@ button{
     float: left;
     padding: 0%;
     width: 100%;
-    height: 50%;
+    height: 60%;
     border-bottom: 2px solid black;
     /*padding: 5% 0% 5% 0%;*/
 }

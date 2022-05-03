@@ -45,7 +45,7 @@ header h1{
 
 
 #visitor-conteiner h1{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 #visitor-conteiner h2{
@@ -109,6 +109,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 
     transform: translateY(-50%);
     margin: 0;
     padding: 0;
+
 }
 
 #contact-controler input[type="radio"]:checked + label {
