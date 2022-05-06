@@ -55,7 +55,7 @@ app.post("/add", function(req, res){
         }
     ).then(
         function(){
-            res.redirect("/dash")
+            console.log("Enviado com sucesso");
         }
     ).catch(
         function(err){

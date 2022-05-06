@@ -14,6 +14,44 @@
 
 }
 
+#whatsapp-cta{
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid rgb(207, 206, 206);
+    border-bottom: 1px solid rgb(207, 206, 206);
+}
+
+#whatsapp-cta h1{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+#whatsapp-cta p{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 0;
+    color: #696969;
+    font-weight: 700;
+}
+
+
+#whats-button{
+    position: relative;
+    float: left;
+    width: 40%;
+    background-color: #25D366;
+    margin: 2% 0% 2% 0%;
+    left: 30%;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+
 h1{
 font-size: 30px;
 }
