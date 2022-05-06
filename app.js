@@ -55,7 +55,7 @@ app.post("/add", function(req, res){
         }
     ).then(
         function(){
-            console.log("Enviado com sucesso");
+            res.redirect("/");
         }
     ).catch(
         function(err){
